@@ -6,7 +6,7 @@ export const initialProfile = async () => {
   const user = await currentUser();
 
   if (!user) {
-    return redirectToSignIn({ returnBackUrl: "/" });
+    return redirectToSignIn({returnBackUrl: process.env.NEXT_PUBLIC_APP_URL ||   "https://housepartyapp-production.up.railway.app"});
   }
 
   const profile = await db.profile.findUnique({
