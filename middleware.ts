@@ -43,18 +43,21 @@ import { authMiddleware } from "@clerk/nextjs";
 export default authMiddleware({
   publicRoutes: [
     "/api/uploadthing",
-    /^\/invite\/[^\/]+$/, // matches /invite/:id
-    /^\/servers\/[^\/]+\/channels\/[^\/]+$/, // matches /servers/:serverId/channels/:channelId
+    /^\/invite\/[^\/]+$/, // ✅ dynamic :id match
+    /^\/servers\/[^\/]+\/channels\/[^\/]+$/, // ✅ nested dynamic match
   ],
   ignoredRoutes: [
-    "/((?!api|trpc))(_next|.+\\..+)(.*)", // default asset ignore
+    "/((?!api|trpc))(_next|.+\\..+)(.*)", // default for static assets
     /^\/invite\/[^\/]+$/,
-    /^\/servers\/[^\/]+\/channels\/[^\/]+$/
+    /^\/servers\/[^\/]+\/channels\/[^\/]+$/,
   ],
 });
 
 export const config = {
   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };
+
+
+
 
 
