@@ -18,7 +18,7 @@ export const config = {
   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)" ],
 };*/
 
-import { authMiddleware } from "@clerk/nextjs";
+/*import { authMiddleware } from "@clerk/nextjs";
 
 // This protects all routes but allows some to be public or ignored
 export default authMiddleware({
@@ -36,5 +36,25 @@ export default authMiddleware({
 
 export const config = {
   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
+};*/
+
+import { authMiddleware } from "@clerk/nextjs";
+
+export default authMiddleware({
+  publicRoutes: [
+    "/api/uploadthing",
+    /^\/invite\/[^\/]+$/, // matches /invite/:id
+    /^\/servers\/[^\/]+\/channels\/[^\/]+$/, // matches /servers/:serverId/channels/:channelId
+  ],
+  ignoredRoutes: [
+    "/((?!api|trpc))(_next|.+\\..+)(.*)", // default asset ignore
+    /^\/invite\/[^\/]+$/,
+    /^\/servers\/[^\/]+\/channels\/[^\/]+$/
+  ],
+});
+
+export const config = {
+  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };
+
 
