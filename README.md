@@ -54,4 +54,8 @@ https://youtu.be/U-aNRVWFkz0
 
 ![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/1.PNG)
 
+##🚀 Try Out the App
+You can check out the live version of the app here:
+👉 [**Houseparty App**](https://housepartyapp-production.up.railway.app/)
 
+Feel free to explore and test it out!
