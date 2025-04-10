@@ -1,11 +1,14 @@
 
-# Discord Clone 👾
+# Virtual Houseparty Application
 
-# App based on the tutorial off CodeWithAntonio
-
-Youtube: https://www.youtube.com/@codewithantonio
-
-Tutorial: https://youtu.be/ZbX4Ok9YX94?si=-bhD-OD0ocicHohv
+# App created using Next.js
+References
+1.	 Socket.io docs: https://socket.io/docs/v4 
+2.	 Uploadthing docs: https://docs.uploadthing.com/ 
+3.	 Livekit.io docs: https://docs.livekit.io/home/ 
+4.	 Next.js docs: https://nextjs.org/docs 
+5.	 Chat Application Architecture Blog by Maria Romaniuk: https://medium.com/@m.romaniiuk/system-design-chat-application-1d6fbf21b372 
+6.	 Video to understand use of websockets (I coded Chess.com clone in 4 hours by Harkirat Singh) : https://www.youtube.com/watch?v=vSJsz7tNuyU
 
 ## Tech stack
 
@@ -51,27 +54,10 @@ https://youtu.be/U-aNRVWFkz0
 
 ![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/1.PNG)
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/3.PNG)
 
 
-MIT License
+### 🚀 Try Out the App
+You can check out the live version of the app here:
+👉 [**Houseparty App**](https://housepartyapp-production.up.railway.app/)
 
-Copyright (c) 2023 Antonio Erdeljac
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
