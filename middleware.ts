@@ -7,7 +7,8 @@ export default authMiddleware({
   publicRoutes: ["/api/uploadthing"],
   ignoredRoutes: 
   [
-      "/((?!api|trpc))(_next|.+\\..+)(.*)", // Keep this default one
+      "/((?!api|trpc))(_next|.+\\..+)(.*)",
+     /invite/:id// Keep this default one
      
     ],
 });
