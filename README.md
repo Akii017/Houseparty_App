@@ -23,9 +23,6 @@ References
 - **Uploadthing**
 - **Clerk**
  
-### Presentation
-https://youtu.be/U-aNRVWFkz0
-
 ### Key Features:
 
 - Real-time messaging using Socket.io
