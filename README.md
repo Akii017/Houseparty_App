@@ -63,20 +63,20 @@ A modern, full-featured real-time chat and video houseparty app built with Next.
 
 ## Screenshots
 # Landing Page
-![App Screenshot](screenshot/Landing.png)
+![App Screenshot](screenshots/Landing.png)
 
 # Conersation
-![App Screenshot](screenshot/Conversation.png)
+![App Screenshot](screenshots/Conversation.png)
 
 # Features of server
-![App Screenshot](screenshot/Features.png)
+![App Screenshot](screenshots/Features.png)
 
 # Video Chat
-![App Screenshot](screenshot/Video.png)
-![App Screenshot](screenshot/VideoChat.png)
+![App Screenshot](screenshots/Video.png)
+![App Screenshot](screenshots/VideoChat.png)
 
-#Screen Share 
-![App Screenshot](screenshot/ScreenShare.png)
+# Screen Share 
+![App Screenshot](screenshots/ScreenShare.png)
 
 ---
 
