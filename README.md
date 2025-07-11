@@ -65,7 +65,7 @@ A modern, full-featured real-time chat and video houseparty app built with Next.
 # Landing Page
 ![App Screenshot](screenshots/Landing.png)
 
-# Conersation
+# Conversation
 ![App Screenshot](screenshots/Conversation.png)
 
 # Features of server
