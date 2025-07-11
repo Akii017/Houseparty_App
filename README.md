@@ -62,12 +62,21 @@ A modern, full-featured real-time chat and video houseparty app built with Next.
 ---
 
 ## Screenshots
+# Landing Page
+![App Screenshot](screenshot/Landing.png)
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/4.PNG)
+# Conersation
+![App Screenshot](screenshot/Conversation.png)
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/2.PNG)
+# Features of server
+![App Screenshot](screenshot/Features.png)
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Discord-Clone-NextJs/main/screenshots/1.PNG)
+# Video Chat
+![App Screenshot](screenshot/Video.png)
+![App Screenshot](screenshot/VideoChat.png)
+
+#Screen Share 
+![App Screenshot](screenshot/ScreenShare.png)
 
 ---
 
