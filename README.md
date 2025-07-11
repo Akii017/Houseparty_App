@@ -69,7 +69,7 @@ A modern, full-featured real-time chat and video houseparty app built with Next.
 ![App Screenshot](screenshots/Conversation.png)
 
 # Features of server
-![App Screenshot](screenshots/Features.png)
+![App Screenshot](screenshots/Features.PNG)
 
 # Video Chat
 ![App Screenshot](screenshots/Video.png)
