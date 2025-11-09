@@ -78,9 +78,4 @@ A modern, full-featured real-time chat and video houseparty app built with Next.
 # Screen Share 
 ![App Screenshot](screenshots/ScreenShare.png)
 
----
 
-## 🌐 Try Out the App
-
-You can check out the live version of the app here:
-👉 [**Houseparty App**](https://housepartyapp-production.up.railway.app/)
